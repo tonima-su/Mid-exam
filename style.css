@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 0%);
+    --Dark-Gray: hsl(0, 0%, 55%);
+    --Very-Dark-Gray: hsl(0, 0%, 41%);
+}
+h1,h2,h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+.container{
+    width: 1440px;
+    margin: auto;
+    padding: 0px 100px;
+}
+.deliver h1{
+    font-size: 60px;
+    border: 2px solid white;
+    width: 550px;
+    padding: 20px; 
+    margin-top: 150px;
+    color: var(--White);  
+}
+
+p, ul li{
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.bar ul {
+list-style: none;
+display: flex;
+width: 400;
+gap: 20px;
+align-items: center;
+color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+#head-1{
+    background-image: url(images/desktop/image-hero.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.AB{
+    display: flex;
+    position: relative;
+
+}
+#purple{
+    margin: 100px 0px;
+}
+.para{
+    position: absolute;
+    width: 700px;
+    top: 162px;
+    right: 0;
+    background-color: var(--White);
+    padding: 100px;
+}
+.para h2{
+    width: 300px;
+}
+h2{
+    width: 400px;
+
+}
+p{
+    color: var(--Dark-Gray)
+}
+.para p{
+    width: 430px;
+}
+.creations{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    font-size: 25px;
+    margin-bottom: 40px;
+
+}
+button{
+    color: black;
+    padding: 10px 30px;
+    background: none;
+    font-family: alata;
+    border: 2px solid black;
+    letter-spacing: 2px;  
+}
+button:hover{
+background-color: black;
+color: white;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 550px 550px;
+    gap: 0px 15px;
+}
+.bc h3{
+    position: absolute;
+    margin-top: 400px;
+    font-size: 35px;
+    color: var(--White);
+    width: 200px;
+    margin-left: 40px;
+
+}
+.bc{
+    position: relative;
+
+}
+.bc img{
+    width: 100%;    
+}
+.above h3{
+    width: 300px;
+}
+#efg{
+    margin-bottom: 100px;
+}
+footer{
+    background-color: rgb(15, 14, 14);
+    padding: 30px 0px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo-all ul{
+    display: flex;
+    gap: 20px;
+}
+.logo-all-2 ul{
+    color: var(--White);
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-left: 0;
+}
+.logo-part-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+
+ul li:hover{
+    border-bottom: 2px solid var(--White);
+    cursor: pointer;
+}
